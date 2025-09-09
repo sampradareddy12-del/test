@@ -1,0 +1,163 @@
+/* General */
+body {
+    margin: 8;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(223, 123, 157);
+    color: rgb(208, 208, 223);
+}
+/* header */
+header {
+    background: rgb(8, 132, 120);
+    color: rgb(236, 236, 243);
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+}
+
+header  h1 {
+    margin: 8;
+
+}
+nav a {
+    color: aquamarine;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color: palevioletred;
+
+}
+/* hero section */
+.hero {
+    background:url ("https://picsum.photos/1200/400?travel") center/cover no-repeat;
+    color: white;
+    text-align:center;
+    padding:60px 20px;
+
+}
+.hero h2{
+    font-size:2.5rem;
+
+}
+/* flex content */
+.container {
+    display:flex;
+    gap:20px;
+    padding:30px;
+    justify-content:space-around;
+    flex-wrap:wrap;
+
+}
+
+.card{
+    flex: 1;
+    win-width:250px;
+    background: darkgoldenrod;
+    padding: 20px;
+    border-radius: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px khaki(0,0,0,0.1);
+    transition:transform 0.3s;
+}
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* Testimonials */
+.testimonials{
+    background: darkcyan;
+    padding: 40px 20px;
+    text-align: center;
+}
+.testimonial-container{
+    display:flex;
+    justify-self: center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+.testimonials{
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    width: 200px;
+    box-shadow: 0px 3px 8px indianred (0,0,0,0.1);
+font-style: italic;
+
+}
+/* Call to action */
+.cta{
+    background: firebrick;
+    color: azure;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta button{
+    padding: 12px 20px;
+    border: none;
+    background:mediumvioletred;
+    color: rgb(238, 219, 210);
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.cta bottom:hover {
+    background: lawngreen;
+}
+
+/* gallery */
+.gallery {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery figure{
+    text-align: center;
+}
+.gallery img{
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0,3s;
+}
+.galler figure{
+    text-align: center;
+}
+.gallery  img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+
+}
+.gallery img:hover{
+    transform: scale(1.05);
+}
+figcaption{
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: whitesmoke;
+
+}
+/* travel quote */
+.quote{
+    background: darkred;
+    color: rgb(208, 203, 201);
+    text-align: center;
+    padding: 40px 20px;
+    font-style: italic;
+}
+/* footer */
+footer{
+    background: mediumturquoise;
+    color: rgb(40, 7, 63);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
